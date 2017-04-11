@@ -1,0 +1,23 @@
+{
+  "name": "@bodyno/rate-limit-redis",
+  "version": "0.1.0",
+  "description": "Basic IP rate-limiting middleware for Express. Use to limit repeated requests to public APIs and/or endpoints such as password reset.",
+  "main": "lib/express-rate-limit.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodyno/express-rate-limit.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "redis": "^2.6.0-2"
+  },
+  "bugs": {
+    "url": "https://github.com/bodyno/express-rate-limit/issues"
+  },
+  "homepage": "https://github.com/bodyno/express-rate-limit#readme",
+  "author": ""
+}
